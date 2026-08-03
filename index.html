@@ -624,7 +624,7 @@ footer {
 <!-- Background Video -->
 <div class="bg-video">
   <video autoplay muted loop playsinline poster="bloom-poster.png">
-    <source src="https://raw.githubusercontent.com/TheSatyam-Singh/motionsites.ai/main/assets/videos/Bloom_AI_0.mp4" type="video/mp4">
+    <source src="bloom-bg.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -807,6 +807,38 @@ footer {
       <div class="title-line"></div>
     </div>
     <div class="timeline reveal">
+
+      <div class="timeline-item" onclick="toggleTimeline(this)">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026</div>
+        <div class="timeline-card liquid-glass">
+          <span class="timeline-expand-icon">▼</span>
+          <h4>AI Agent 本地化与模型工程实践</h4>
+          <p>从云端 API 走向本地私有化部署，系统梳理 LLM 选型、Agent 框架与性能调优。</p>
+          <div class="card-detail">
+            <p>折腾 Hermes Agent 自托管方案，对比 DeepSeek-V4-Flash 与 GLM-5.2 的适用场景；排查 event loop 卡顿、上下文压缩与桌面端会话超时等问题。规划 2×RTX 4090 本地工作站路线，尝试 Ollama / vLLM 等私有化推理方案，把 AI 能力真正落到本机。</p>
+          </div>
+          <div class="note-tags">
+            <span class="tag liquid-glass">LLM</span><span class="tag liquid-glass">Agent</span><span class="tag liquid-glass">Local AI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" onclick="toggleTimeline(this)">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026</div>
+        <div class="timeline-card liquid-glass">
+          <span class="timeline-expand-icon">▼</span>
+          <h4>Skill 开发与 AI 设计资产工程化</h4>
+          <p>把碎片化的 AI 设计提示词沉淀成可复用、可扩展的 Skill 体系。</p>
+          <div class="card-detail">
+            <p>学习 WorkBuddy Skill 生命周期，把 motionsites.ai 的 65 + 67 个 Web 设计提示词整合进 ui-design-language skill，最终建成 142 条设计语言库。实践安全审计、版本管理与跨项目复用，让提示词从一次性咒语变成可持续维护的知识资产。</p>
+          </div>
+          <div class="note-tags">
+            <span class="tag liquid-glass">Skill</span><span class="tag liquid-glass">Prompt Eng</span><span class="tag liquid-glass">Design System</span>
+          </div>
+        </div>
+      </div>
 
       <div class="timeline-item" onclick="toggleTimeline(this)">
         <div class="timeline-dot"></div>
