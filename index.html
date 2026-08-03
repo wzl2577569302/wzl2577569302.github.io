@@ -813,13 +813,13 @@ footer {
         <div class="timeline-date">2026</div>
         <div class="timeline-card liquid-glass">
           <span class="timeline-expand-icon">▼</span>
-          <h4>AI Agent 本地化与模型工程实践</h4>
-          <p>从云端 API 走向本地私有化部署，系统梳理 LLM 选型、Agent 框架与性能调优。</p>
+          <h4>Agent 长期记忆方案</h4>
+          <p>打造跨工具、按作用域分层的个人 AI 记忆层，让任何 AI 工具都从同一个真相源读你、写你。</p>
           <div class="card-detail">
-            <p>折腾 Hermes Agent 自托管方案，对比 DeepSeek-V4-Flash 与 GLM-5.2 的适用场景；排查 event loop 卡顿、上下文压缩与桌面端会话超时等问题。规划 2×RTX 4090 本地工作站路线，尝试 Ollama / vLLM 等私有化推理方案，把 AI 能力真正落到本机。</p>
+            <p>参考 my-ai-memory 项目：把记忆拆成 8 个作用域（user / project / roles / agent / clients / content / experience / skills），每个 agent 只加载「此刻相关、有上限」的一小片，避免全量加载导致 token 爆炸与成本失控。loader.py 提供 recall（检索）/ distill（蒸馏）/ compact（压缩）/ note（笔记）/ secrets（密钥隔离）命令，纯标准库零依赖。多 agent 协作时各角色只加载自己的 scope，跨角色变更写进 project 契约面；密钥库本地专属绝不进云，未来自托管工作站密钥全程不出本机。</p>
           </div>
           <div class="note-tags">
-            <span class="tag liquid-glass">LLM</span><span class="tag liquid-glass">Agent</span><span class="tag liquid-glass">Local AI</span>
+            <span class="tag liquid-glass">Agent</span><span class="tag liquid-glass">长期记忆</span><span class="tag liquid-glass">Local-first</span>
           </div>
         </div>
       </div>
